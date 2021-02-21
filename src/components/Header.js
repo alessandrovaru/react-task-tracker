@@ -9,7 +9,7 @@ const Header = ({ title }) => {
 
     // Declaración de constantes para los Props(params)onClick
     const onClick = () => {
-        alert('hola');
+        console.log('hola');
     }
 
     // Componente
