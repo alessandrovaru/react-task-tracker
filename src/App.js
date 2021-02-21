@@ -1,9 +1,10 @@
 import Header from './components/Header'
 
 function App() {
-  return ( //Esto se parece a HTML pero es JSX
+  //Esto se parece a HTML pero es JSX
+  return ( 
     <div className="container">
-      <Header />
+      <Header title='Nocion' />
     </div>
   ); 
 }
